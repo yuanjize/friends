@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="95dp"
+    android:background="#ffffffff">
+
+    <ImageView
+        android:id="@+id/activity_user_head"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/pic_head4_196px" />
+
+    <TextView
+        android:id="@+id/activity_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/activity_user_head"
+        android:text="半马自我挑战赛"
+        android:textColor="#6d6d6d"
+        android:textSize="18.5sp" />
+
+    <TextView
+        android:id="@+id/activity_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/activity_name"
+        android:layout_below="@+id/activity_name"
+        android:layout_marginTop="5dp"
+        android:text="发布者：悦呼"
+        android:textColor="#b6b6b6"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/activity_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/activity_user_name"
+        android:layout_below="@+id/activity_user_name"
+        android:layout_marginTop="4dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="今晚5点，大活502集合，不要忘记带水杯和被子，牙刷等等......"
+        android:textColor="#6d6d6d"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignLeft="@+id/activity_name"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="8dp"
+        android:background="@color/gray" />
+
+    <TextView
+        android:id="@+id/running"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/activity_name"
+        android:background="@drawable/green_circle_shape"
+        android:gravity="center"
+        android:text="进行中"
+        android:textColor="@color/green"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/activity_lunch_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/activity_name"
+        android:layout_marginRight="10dp"
+        android:text="1月9号"
+        android:textColor="#b6b6b6"
+        android:textSize="16sp" />
+</RelativeLayout>

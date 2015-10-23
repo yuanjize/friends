@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/rank_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="1."
+        android:textColor="#6dc396"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/group_head"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="3dp"
+        android:src="@mipmap/pic_head4_196px" />
+
+    <TextView
+        android:id="@+id/group_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="悦呼"
+        android:textColor="#8b8b8b"
+        android:textSize="16sp" />
+</LinearLayout>

@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical"
+    tools:context="com.example.friends.friends.activity.Register2Activity">
+
+    <com.example.friends.friends.views.MyTittle
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        app:tittle="添加标签" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+        <com.example.friends.friends.views.MyLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <com.example.friends.friends.views.MyLinearLayout
+                android:id="@+id/raw1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/abble1"
+                    android:layout_width="97dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bk_able"
+                    android:gravity="center_vertical|right"
+                    android:paddingRight="8dp"
+                    android:text="死宅" />
+            </com.example.friends.friends.views.MyLinearLayout>
+        </com.example.friends.friends.views.MyLinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/addlabel_line" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="点击上示标签以添加"
+        android:textSize="18sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="6dp"
+        android:layout_weight="0.4">
+
+        <com.example.friends.friends.views.MyLinearLayout
+            android:id="@+id/added"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="0.4"
+            android:orientation="vertical">
+
+            <com.example.friends.friends.views.MyLinearLayout
+                android:id="@+id/raws1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            </com.example.friends.friends.views.MyLinearLayout>
+
+        </com.example.friends.friends.views.MyLinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:onClick="next"
+        android:layout_width="match_parent"
+        android:layout_height="49dp">
+
+        <TextView
+            android:id="@+id/next2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/im_register_nextstep"
+            android:gravity="center"
+            android:text="完成"
+            android:textColor="#38b578"
+            android:textSize="18sp" />
+        />
+    </LinearLayout>
+</LinearLayout><!-- From: file:/F:/Friends/app/src/main/res/layout/activity_register2.xml -->

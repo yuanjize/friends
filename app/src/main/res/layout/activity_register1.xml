@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/actionbar_yuan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--  -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:background="@color/gray"
+            android:orientation="vertical">
+
+            <com.example.friends.friends.views.MyTittle
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                app:tittle="个人设置" />
+
+            <ImageView
+                android:id="@+id/head"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:src="@drawable/pic_register_head" />
+            <!--  -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6.5"
+            android:background="@drawable/bg_register_card"
+            android:orientation="vertical">
+
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/a"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="19sp"
+                    android:gravity="center_vertical"
+                    android:text="昵称"
+                    android:textColor="#8a8a8a"
+                    android:textSize="18sp"
+                    app:layout_widthPercent="20%" />
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/bk_text"
+                    android:hint="请输入. ."
+                    android:paddingLeft="5dp"
+                    android:textColor="#d2d2d2"
+                    android:textColorHint="#d2d2d2"
+                    android:textSize="18sp"
+                    app:layout_heightPercent="97%"
+                    app:layout_widthPercent="70%" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignLeft="@id/name"
+                    android:layout_below="@id/name"
+                    android:background="@color/gray" />
+
+            </android.support.percent.PercentRelativeLayout>
+
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+
+                >
+
+                <TextView
+                    android:id="@+id/dd"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="19dp"
+                    android:gravity="center_vertical"
+                    android:text="密码"
+                    android:textColor="#8a8a8a"
+                    android:textSize="18sp"
+                    app:layout_widthPercent="20%" />
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/bk_text"
+                    android:hint="请输入. ."
+                    android:paddingLeft="5dp"
+                    android:textColor="#d2d2d2"
+                    android:textColorHint="#d2d2d2"
+                    android:textSize="18sp"
+                    app:layout_heightPercent="97%"
+                    app:layout_widthPercent="70%" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignLeft="@id/password"
+                    android:layout_below="@id/password"
+                    android:background="@color/gray" />
+
+            </android.support.percent.PercentRelativeLayout>
+
+
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/c"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="19dp"
+                    android:gravity="center_vertical"
+                    android:text="性别"
+                    android:textColor="#8a8a8a"
+                    android:textSize="18sp"
+                    app:layout_widthPercent="20%" />
+
+
+                <android.support.percent.PercentRelativeLayout
+                    android:id="@+id/sexs"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/bk_text"
+                    android:paddingLeft="5dp"
+                    app:layout_heightPercent="97%"
+                    app:layout_widthPercent="70%">
+
+                    <CheckBox
+                        android:id="@+id/man"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="9dp"
+                        android:background="@drawable/sex_selector"
+                        android:button="@null" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/man"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/man"
+                        android:text="男"
+                        android:textColor="#8a8a8a" />
+
+                    <CheckBox
+                        android:id="@+id/woman"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_toRightOf="@+id/man"
+                        android:background="@drawable/sex_selector"
+                        android:button="@null" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/woman"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/woman"
+                        android:text="女"
+                        android:textColor="#8a8a8a" />
+
+                </android.support.percent.PercentRelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignLeft="@+id/sexs"
+                    android:layout_below="@+id/sexs"
+                    android:background="@color/gray" />
+            </android.support.percent.PercentRelativeLayout>
+
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+
+                >
+
+                <TextView
+                    android:id="@+id/b"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="19dp"
+                    android:gravity="center_vertical"
+                    android:text="生日"
+                    android:textColor="#8a8a8a"
+                    android:textSize="18sp"
+                    app:layout_widthPercent="20%" />
+
+                <TextView
+                    android:id="@+id/birthday"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/bk_text"
+                    android:hint="请选择. ."
+                    android:paddingLeft="5dp"
+                    android:textColor="#d2d2d2"
+                    android:textColorHint="#d2d2d2"
+                    android:textSize="18sp"
+                    app:layout_heightPercent="97%"
+                    app:layout_widthPercent="70%" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignLeft="@+id/birthday"
+                    android:layout_below="@+id/birthday"
+                    android:background="@color/gray" />
+            </android.support.percent.PercentRelativeLayout>
+
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+
+                >
+
+                <TextView
+                    android:id="@+id/d"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="19dp"
+                    android:gravity="center_vertical"
+                    android:text="个性签名"
+                    android:textColor="#8a8a8a"
+                    android:textSize="18sp"
+                    app:layout_widthPercent="23%" />
+
+                <EditText
+
+                    android:id="@+id/mysign"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/bk_text"
+                    android:hint="请输入. ."
+                    android:paddingLeft="5dp"
+                    android:textColor="#d2d2d2"
+                    android:textColorHint="#d2d2d2"
+                    android:textSize="18sp"
+                    app:layout_heightPercent="97%"
+                    app:layout_widthPercent="70%" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignLeft="@+id/mysign"
+                    android:layout_below="@+id/mysign"
+                    android:background="@color/gray" />
+            </android.support.percent.PercentRelativeLayout>
+
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/s"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="19dp"
+                    android:gravity="center_vertical"
+                    android:text="情感状况"
+                    android:textColor="#8a8a8a"
+                    android:textSize="18sp"
+                    app:layout_widthPercent="23%" />
+
+
+                <android.support.percent.PercentRelativeLayout
+                    android:id="@+id/emotion"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/bk_text"
+                    android:paddingLeft="5dp"
+                    app:layout_heightPercent="97%"
+                    app:layout_widthPercent="70%">
+
+                    <CheckBox
+
+                        android:id="@+id/single"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="9dp"
+                        android:background="@drawable/sex_selector"
+                        android:button="@null" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/single"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/single"
+                        android:text="单身"
+                        android:textColor="#8a8a8a" />
+
+                    <CheckBox
+                        android:id="@+id/hotlove"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_toRightOf="@+id/single"
+                        android:background="@drawable/sex_selector"
+                        android:button="@null" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/hotlove"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/hotlove"
+                        android:text="热恋"
+                        android:textColor="#8a8a8a" />
+
+                    <CheckBox
+                        android:id="@+id/secret"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_toRightOf="@+id/hotlove"
+                        android:background="@drawable/sex_selector"
+                        android:button="@null" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/secret"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/secret"
+                        android:text="秘密"
+                        android:textColor="#8a8a8a" />
+
+                </android.support.percent.PercentRelativeLayout>
+            </android.support.percent.PercentRelativeLayout>
+
+            <TextView
+                android:id="@+id/next"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.3"
+                android:background="@drawable/im_register_nextstep"
+                android:gravity="center"
+                android:text="下一步"
+                android:textColor="#38b578"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pick_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/fb_register_choosehead"
+        app:backgroundTint="@color/green"
+        app:borderWidth="0dp"
+        app:fabSize="normal"
+        app:layout_anchor="@id/head"
+        app:layout_anchorGravity="right|bottom|end" />
+
+</android.support.design.widget.CoordinatorLayout>

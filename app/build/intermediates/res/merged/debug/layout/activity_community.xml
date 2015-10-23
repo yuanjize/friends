@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context="com.example.friends.friends.activity.AddCommunityActivity">
+
+    <com.example.friends.friends.views.MyTittle
+        android:id="@+id/bar_com"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        app:tittle="添加社区" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/bar_com"
+        android:background="@drawable/bg_tabs">
+
+        <ImageView
+            android:id="@+id/serch"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="26dp"
+            android:layout_marginLeft="35dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/tab_ic_search" />
+
+        <EditText
+            android:id="@+id/search_community"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/add_textbox"
+            android:paddingLeft="38dp"
+            android:hint="搜索以添加社区"
+            android:textColorHint="#d0eadb"
+            android:paddingBottom="6dp"
+            android:textSize="21sp"
+            />
+    </RelativeLayout>
+</RelativeLayout>
+<!-- From: file:/F:/Friends/app/src/main/res/layout/activity_community.xml -->

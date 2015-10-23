@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="73dp">
+
+    <ImageView
+        android:id="@+id/fans_pic"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@mipmap/pic_head4_196px" />
+
+    <TextView
+        android:id="@+id/fans_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="9dp"
+        android:layout_toRightOf="@id/fans_pic"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="岳呼"
+        android:textColor="#878787"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/fans_sign"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fans_name"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="9dp"
+        android:layout_toRightOf="@id/fans_pic"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="今天中午吃什么呢?"
+        android:textColor="#cecece"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/isattention"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_btn_attraction_fans_h"
+        android:gravity="center"
+        android:text="关注"
+        android:textColor="#ffffff" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignLeft="@id/fans_name"
+        android:layout_alignParentBottom="true"
+        android:background="#cecece" />
+</RelativeLayout><!-- From: file:/F:/Friends/app/src/main/res/layout/fans_item_layout.xml -->

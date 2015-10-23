@@ -1,0 +1,9 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.friends.friends.fragment.SubDynamticFragment">
+
+
+
+</FrameLayout>
+<!-- From: file:/F:/Friends/app/src/main/res/layout/fragment_sub_dynamtic.xml -->

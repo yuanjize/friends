@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\Friends\app\libs\ShareSDK-QQ-2.6.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="26c991c29049a91e34eb78d260d5384437411f13">
+        <dex dex="F:\Friends\app\build\intermediates\pre-dexed\debug\ShareSDK-QQ-2.6.2-4c07776d75f058a01b1b7c4fa9240e7235ddb26c.jar" />
+    </item>
+    <item
+        jar="F:\Friends\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="11842de6a309c447b3a3d60d73ad637a87c58994">
+        <dex dex="F:\Friends\app\build\intermediates\pre-dexed\debug\classes-c5835ba51ba7f469cb866caa842f547fff4b2c2c.jar" />
+    </item>
+    <item
+        jar="C:\Users\yjz\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.3\a85588bec3e2c4584d593d3f15df1677321bca72\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="F:\Friends\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3-2ee68deb4042f503f1a8c9421dbbf85b5fd6ee1d.jar" />
+    </item>
+    <item
+        jar="F:\Friends\app\libs\ShareSDK-QZone-2.6.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="53661a165bdf35b59961d314ba218681ff3a4980">
+        <dex dex="F:\Friends\app\build\intermediates\pre-dexed\debug\ShareSDK-QZone-2.6.2-16b541e93af1d1be274adb41320377c23527e388.jar" />
+    </item>
+    <item
+        jar="F:\Friends\app\libs\ShareSDK-Core-2.6.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e44531695e0bcfd747ffbdda3f083b7b41a5fe14">
+        <dex dex="F:\Friends\app\build\intermediates\pre-dexed\debug\ShareSDK-Core-2.6.2-c5bca4138d7e817f5ae6642cd380b2befcf976f9.jar" />
+    </item>
+    <item
+        jar="F:\Friends\app\libs\xUtils-2.6.14.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="F:\Friends\app\build\intermediates\pre-dexed\debug\xUtils-2.6.14-4bce27f1580487aebe3f401592dcfde1d8cb23d9.jar" />
+    </item>
+    <item
+        jar="F:\Friends\app\libs\ShareSDK-SinaWeibo-2.6.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fa713e699e09f5f110760f12b4a46a9280d9524b">
+        <dex dex="F:\Friends\app\build\intermediates\pre-dexed\debug\ShareSDK-SinaWeibo-2.6.2-7419067cc3d02451675efce0f86df134d5bc1c0d.jar" />
+    </item>
+    <item
+        jar="F:\Friends\app\build\intermediates\exploded-aar\com.android.support\percent\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="928b73afabcd116944e9487771d4121168eac1a4">
+        <dex dex="F:\Friends\app\build\intermediates\pre-dexed\debug\classes-a8dd813c4350cc5d34e7187a6680a9219b36b767.jar" />
+    </item>
+    <item
+        jar="F:\Friends\app\libs\MobLogCollector.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c804b0e7238e94bb9c89381c90336116509473d7">
+        <dex dex="F:\Friends\app\build\intermediates\pre-dexed\debug\MobLogCollector-4883fc106f6f62b240215a99ecd4294fe05e7a7b.jar" />
+    </item>
+    <item
+        jar="F:\Friends\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="F:\Friends\app\build\intermediates\pre-dexed\debug\classes-3e4be4cff41b41f59eb455e283d5038971802430.jar" />
+    </item>
+    <item
+        jar="F:\Friends\app\libs\MobTools.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="729a7c1d26c5902662316960cf282647b8d81cab">
+        <dex dex="F:\Friends\app\build\intermediates\pre-dexed\debug\MobTools-8ae03b93ac07da1c4f83d2c41ee54bad01123cba.jar" />
+    </item>
+    <item
+        jar="F:\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="F:\Friends\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-adceb0f8226932511460bc5db528a90118998a8a.jar" />
+    </item>
+    <item
+        jar="F:\Friends\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="F:\Friends\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-d9da12648ac828eab0c2c91a4da84ecf1f74c8c7.jar" />
+    </item>
+    <item
+        jar="F:\Friends\app\libs\androidannotations-api-3.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="89b33bb1e996eb2c4089f79d1b8651c71fe8e2d1">
+        <dex dex="F:\Friends\app\build\intermediates\pre-dexed\debug\androidannotations-api-3.2-97f55e02eb5a7c503c6160b39a0858041f72ec12.jar" />
+    </item>
+    <item
+        jar="F:\Friends\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="F:\Friends\app\build\intermediates\pre-dexed\debug\classes-0daa4d306e5d24ce9da62b7a83bf49a3e621e98d.jar" />
+    </item>
+    <item
+        jar="F:\Friends\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="F:\Friends\app\build\intermediates\pre-dexed\debug\classes-21950d454379022a86ab4a78adfb81baf9695965.jar" />
+    </item>
+    <item
+        jar="F:\Friends\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="F:\Friends\app\build\intermediates\pre-dexed\debug\classes-5634872af9dc636411ab8baed5257538d14221cb.jar" />
+    </item>
+
+</items>

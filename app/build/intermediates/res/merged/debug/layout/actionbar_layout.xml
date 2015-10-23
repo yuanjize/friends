@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/myactionbar"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="46dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/bar_back" />
+
+    <TextView
+        android:id="@+id/mytitle"
+        style="@style/mytittle"
+        android:layout_marginLeft="30dp"
+        android:text="个人资料" />
+</LinearLayout>
+
+<!-- From: file:/F:/Friends/app/src/main/res/layout/actionbar_layout.xml -->

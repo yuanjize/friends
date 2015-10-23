@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.friends.friends.activity.AddCustomActivity">
+    <item
+        android:id="@+id/attraction_add"
+        android:icon="@mipmap/tab_ic_add"
+        android:orderInCategory="0"
+        android:title="custom_add"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/custom_more"
+        android:icon="@mipmap/tab_ic_custom_more"
+        android:orderInCategory="100"
+        android:title="custom_more"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/custom_message"
+        android:icon="@mipmap/tab_ic_custom_message"
+        android:title="custom_message"
+        app:showAsAction="ifRoom" />
+</menu>
+<!-- From: file:/F:/Friends/app/src/main/res/menu/menu_add_custom.xml -->

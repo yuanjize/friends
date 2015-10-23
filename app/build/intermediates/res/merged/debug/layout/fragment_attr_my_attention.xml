@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.friends.friends.fragment.AttFansFragment">
+
+    <ListView
+        android:layout_marginTop="20dp"
+        android:id="@+id/fans"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp">
+
+    </ListView>
+
+</FrameLayout>
+<!-- From: file:/F:/Friends/app/src/main/res/layout/fragment_attr_my_attention.xml -->

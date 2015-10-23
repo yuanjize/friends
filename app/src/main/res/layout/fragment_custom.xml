@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/bar2"
+            style="@style/myactionbar"
+            android:layout_height="80dp"
+            android:paddingLeft="80dp"
+            android:text="我的习惯"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+    <ScrollView
+        android:layout_below="@id/bar2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/name_notfinish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="50dp"
+                    android:text="未完成"
+                    android:textColor="#c9c9c9"
+                    android:textSize="16sp" />
+
+                <ListView
+                    android:id="@+id/not_finish"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/name_notfinish"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/name_notfinish"
+                    android:divider="@android:color/transparent"
+                    android:dividerHeight="0dp"></ListView>
+
+                <ListView
+                    android:id="@+id/finished"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/not_finish"
+                    android:layout_below="@id/not_finish"
+                    android:divider="@android:color/transparent"
+                    android:dividerHeight="7dp"></ListView>
+
+                <TextView
+                    android:id="@+id/name_finished"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/name_notfinish"
+                    android:layout_alignTop="@id/finished"
+                    android:layout_marginTop="5dp"
+                    android:layout_toLeftOf="@id/finished"
+                    android:text="已完成"
+                    android:textColor="#c9c9c9"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/add_customer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/bk_red"
+        app:backgroundTint="#ff7200"
+        app:borderWidth="0dp"
+        app:fabSize="normal"
+        app:layout_anchor="@id/bar2"
+        app:layout_anchorGravity="left|bottom|end" />
+    </android.support.design.widget.CoordinatorLayout>

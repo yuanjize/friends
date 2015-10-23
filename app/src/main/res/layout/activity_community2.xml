@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.friends.friends.activity.CommunityActivity">
+
+    <com.example.friends.friends.views.MyTittle
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        app:tittle="悦跑团" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.8"
+        android:background="@mipmap/bg_tab_extend_card">
+
+        <ImageView
+            android:id="@+id/community_head"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/pic_head4_196px" />
+
+        <TextView
+            android:id="@+id/community_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@id/community_head"
+            android:text="悦跑团"
+            android:textColor="#6a6a6a"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/community_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/community_name"
+            android:layout_below="@id/community_name"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:text="随风奔跑是方向~~"
+            android:textColor="#b1b1b1"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/community_people_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/community_sign"
+            android:layout_below="@+id/community_sign"
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:text="22"
+            android:textColor="#b1b1b1"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/community_boss_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/community_people_number"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/community_people_number"
+            android:gravity="center_vertical"
+            android:text="悦呼"
+            android:textColor="#b1b1b1"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/lunch_activity"
+            android:layout_width="78dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/community_people_number"
+            android:layout_below="@+id/community_people_number"
+            android:layout_marginTop="8dp"
+            android:background="@mipmap/bg_btn_launch"
+            android:gravity="center"
+            android:text="发起活动"
+            android:textColor="#6ec497" />
+
+        <TextView
+            android:id="@+id/activity_sign"
+            android:layout_width="78dp"
+            android:layout_height="30dp"
+            android:layout_alignTop="@+id/lunch_activity"
+            android:layout_below="@+id/community_people_number"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/lunch_activity"
+            android:background="@mipmap/bg_btn_sign"
+            android:gravity="center"
+            android:text="签到"
+            android:textColor="#f6f6f6" />
+
+        <android.support.design.widget.TabLayout
+            app:tabIndicatorHeight="4dp"
+            android:id="@+id/tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/activity_sign"
+            android:layout_marginTop="20dp" />
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/my_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6" />
+
+
+</LinearLayout>

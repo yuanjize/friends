@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    tools:context="com.example.friends.friends.activity.LoginActivity">
+
+    <com.example.friends.friends.views.MyTittle
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        app:tittle="账号登陆" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_background"
+            android:hint="用户名/邮箱"
+            android:paddingLeft="10dp"
+            android:textColor="#c9c9c9"
+            android:textColorHint="#c9c9c9"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/user_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_name"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit_background"
+            android:hint="密码"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:textColor="#c9c9c9"
+            android:textColorHint="#c9c9c9"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/log_in"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/user_password"
+            android:layout_alignRight="@+id/user_password"
+            android:layout_below="@+id/user_password"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/login_selector"
+            android:gravity="center"
+            android:text="登录"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:layout_weight="0.03"-->
+    <!--android:gravity="center_horizontal">-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/forget_password"-->
+    <!--android:layout_width="80dp"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:scaleType="centerInside"-->
+    <!--android:src="@mipmap/login_forget" />-->
+
+    <!--</LinearLayout>-->
+</LinearLayout>
+<!-- From: file:/F:/Friends/app/src/main/res/layout/activity_login.xml -->
