@@ -3,4 +3,14 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_register1">Register1Activity</string>
+    <string name="title_activity_register2">Register2Activity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_add_custom">AddCustomActivity</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_community">CommunityActivity</string>
 </resources>

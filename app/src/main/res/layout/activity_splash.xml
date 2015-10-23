@@ -1,12 +1,97 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashActivity">
+    android:background="@color/gray"
+    android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:gravity="center">
 
-</RelativeLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/f_login_logo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:layout_weight="1.5"
+            android:src="@mipmap/f_login_line" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="快速登录"
+            android:textColor="@color/textcolor"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:layout_weight="1.5"
+            android:src="@mipmap/f_login_line" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/qq_login"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/btn_flogin_tencent" />
+
+        <ImageView
+            android:id="@+id/weibo_login"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/btn_flogin_weibo" />
+
+        <TextView
+            android:textColor="#848484"
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qq_login"
+            android:layout_alignLeft="@+id/qq_login"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="12dp"
+            android:text="注册"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/weibo_login"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="18dp"
+            android:layout_alignRight="@+id/weibo_login"
+            android:textColor="#848484"
+            android:text="登录"
+            android:textSize="23dp" />
+    </RelativeLayout>
+</LinearLayout>
