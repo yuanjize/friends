@@ -55,10 +55,11 @@ public class SublistrankFragment extends Fragment {
             }
             if (adapter == null) {
                 adapter = new MyAdapter();
-                if (rankList != null) {
-                    rankList.setAdapter(adapter);
-                }
             }
+            rankList.setAdapter(adapter);
+
+/*            System.out.println(list.size());
+            adapter.notifyDataSetChanged();*/
         } else {
 
         }

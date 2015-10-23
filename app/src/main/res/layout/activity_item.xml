@@ -8,7 +8,7 @@
         android:id="@+id/activity_user_head"
         android:layout_width="55dp"
         android:layout_height="55dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="10dp"
         android:src="@mipmap/pic_head4_196px" />
 
@@ -16,10 +16,10 @@
         android:id="@+id/activity_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="25dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="15dp"
         android:layout_toRightOf="@+id/activity_user_head"
-        android:text="半马自我挑战赛"
+        android:text="半马自我挑战"
         android:textColor="#6d6d6d"
         android:textSize="18.5sp" />
 
@@ -74,7 +74,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignTop="@id/activity_name"
-        android:layout_marginRight="10dp"
+        android:layout_marginRight="5dp"
         android:text="1月9号"
         android:textColor="#b6b6b6"
         android:textSize="16sp" />
