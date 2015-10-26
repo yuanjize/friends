@@ -21,6 +21,7 @@ import com.example.friends.friends.Utils.DensityUtil;
 import com.example.friends.friends.Utils.PictureUtils;
 import com.example.friends.friends.activity.AddCustomActivity;
 import com.example.friends.friends.activity.CommunityActivity;
+import com.example.friends.friends.activity.PersonalActivity;
 import com.example.friends.friends.dao.DynamticInfo;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
@@ -141,13 +142,14 @@ public class DyhostFragment extends Fragment {
         public void onClick(View v) {
             switch (v.getId()) {
                 case R.id.hot_user_head:
+                    startActivity(new Intent(getActivity(), PersonalActivity.class));
                     break;
                 case R.id.descrip_pic:
                     break;
                 case R.id.hot_group_head:
+                    startActivity(new Intent(getActivity(), CommunityActivity.class));
                     break;
                 case R.id.hot_username:
-                    startActivity(new Intent(getActivity(), CommunityActivity.class));
                     break;
                 case R.id.hot_sign_in:
                     break;

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/custom_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="20dp"
+                android:text="12点前睡觉"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/custom_insist_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/custom_name"
+                android:layout_marginRight="6dp"
+                android:text="已坚持3天"
+                android:textSize="17dp" />
+
+            <LinearLayout
+                android:id="@+id/my_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/custom_name"
+                android:layout_alignRight="@+id/custom_insist_day"
+                android:layout_below="@+id/custom_insist_day"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/custom_pic1"
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/pic_dynamic_detail" />
+
+                <ImageView
+                    android:id="@+id/custom_pic2"
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/pic_dynamic_detail" />
+
+                <ImageView
+                    android:id="@+id/custom_pic3"
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/pic_dynamic_detail" />
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

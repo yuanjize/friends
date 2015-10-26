@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.friends.friends.activity.CommunityActivity">
+
+    <com.example.friends.friends.views.MyTittle
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        app:tittle="个人主页" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.8"
+        android:background="@mipmap/bg_tab_extend_card">
+
+        <ImageView
+            android:id="@+id/personal_head"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/pic_head4_196px" />
+
+        <TextView
+            android:id="@+id/personal_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@id/personal_head"
+            android:text="有朋"
+            android:textColor="#6a6a6a"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_marginRight="3dp"
+            android:id="@+id/personal_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/personal_name"
+            android:layout_below="@id/personal_name"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="没有走不完的路，只有迈不开的腿"
+            android:textColor="#b1b1b1"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/personal_myfans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/personal_sign"
+            android:layout_below="@+id/personal_sign"
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:text="22"
+            android:textColor="#b1b1b1"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/personal_myattention"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/personal_myfans"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/personal_myfans"
+            android:gravity="center_vertical"
+            android:text="22"
+            android:textColor="#b1b1b1"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/personal_edit_myinfo"
+            android:layout_width="78dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/personal_myfans"
+            android:layout_below="@+id/personal_myfans"
+            android:layout_marginTop="8dp"
+            android:background="@mipmap/bg_btn_launch"
+            android:gravity="center"
+            android:text="编辑资料"
+            android:textColor="#6ec497" />
+
+        <TextView
+            android:id="@+id/personal_more_setting"
+            android:layout_width="78dp"
+            android:layout_height="30dp"
+            android:layout_alignTop="@+id/personal_edit_myinfo"
+            android:layout_below="@+id/personal_myfans"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/personal_edit_myinfo"
+            android:background="@mipmap/bg_btn_sign"
+            android:gravity="center"
+            android:text="更多设置"
+            android:textColor="#f6f6f6" />
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/personal_tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/personal_more_setting"
+            android:layout_marginTop="20dp"
+            app:tabIndicatorHeight="4dp" />
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/personal_my_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6" />
+</LinearLayout>

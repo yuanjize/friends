@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\Friends\app\src\main\AndroidManifest.xml:2:1-76:12
+ADDED from F:\Friends\app\src\main\AndroidManifest.xml:2:1-84:12
 	package
 		ADDED from F:\Friends\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from F:\Friends\app\src\main\AndroidManifest.xml
@@ -58,7 +58,7 @@ ADDED from F:\Friends\app\src\main\AndroidManifest.xml:18:5-74
 	android:name
 		ADDED from F:\Friends\app\src\main\AndroidManifest.xml:18:22-71
 application
-ADDED from F:\Friends\app\src\main\AndroidManifest.xml:20:5-74:19
+ADDED from F:\Friends\app\src\main\AndroidManifest.xml:20:5-82:19
 MERGED from [com.android.support:support-v4:22.2.1] F:\Friends\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:22.2.1] F:\Friends\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:22.2.1] F:\Friends\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
@@ -168,6 +168,18 @@ ADDED from F:\Friends\app\src\main\AndroidManifest.xml:70:9-73:20
 		ADDED from F:\Friends\app\src\main\AndroidManifest.xml:72:13-61
 	android:name
 		ADDED from F:\Friends\app\src\main\AndroidManifest.xml:71:13-55
+activity#com.example.friends.friends.activity.PersonalActivity
+ADDED from F:\Friends\app\src\main\AndroidManifest.xml:74:9-77:20
+	android:label
+		ADDED from F:\Friends\app\src\main\AndroidManifest.xml:76:13-60
+	android:name
+		ADDED from F:\Friends\app\src\main\AndroidManifest.xml:75:13-54
+activity#com.example.friends.friends.activity.ManageLabbleActivity
+ADDED from F:\Friends\app\src\main\AndroidManifest.xml:78:9-81:20
+	android:label
+		ADDED from F:\Friends\app\src\main\AndroidManifest.xml:80:13-65
+	android:name
+		ADDED from F:\Friends\app\src\main\AndroidManifest.xml:79:13-58
 uses-sdk
 INJECTED from F:\Friends\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:support-v4:22.2.1] F:\Friends\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43

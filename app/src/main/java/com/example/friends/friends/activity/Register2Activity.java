@@ -40,7 +40,6 @@ public class Register2Activity extends BaseActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register2);
         init();
-
     }
 
     private void init() {
@@ -176,6 +175,7 @@ public class Register2Activity extends BaseActivity implements View.OnClickListe
         intent.putExtras(bundle);
         startActivity(intent);
         isActivityAcahe = false;
-        //finishActivitys(new String[]{"MainActivity", "Register1Activity", "Register2Activity"});
     }
+
+
 }

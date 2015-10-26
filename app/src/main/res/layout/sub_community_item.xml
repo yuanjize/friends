@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp">
+
+    <ImageView
+        android:id="@+id/sub_community_item_group_head"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/pic_head4_196px" />
+
+    <TextView
+        android:id="@+id/sub_community_item_group_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@id/sub_community_item_group_head"
+        android:text="悦跑团"
+        android:textColor="#6d6d6d"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/sub_community_item_group_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub_community_item_group_name"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@id/sub_community_item_group_head"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="每天10公里健康中国人！！！"
+        android:textColor="#b6b6b6"
+        android:textSize="13.5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignLeft="@+id/sub_community_item_group_sign"
+        android:layout_alignParentBottom="true"
+        android:background="@color/gray" />
+</RelativeLayout>

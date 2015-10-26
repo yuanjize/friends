@@ -77,6 +77,14 @@
             android:name="com.example.friends.friends.activity.CommunityActivity"
             android:label="@string/title_activity_community" >
         </activity>
+        <activity
+            android:name="com.example.friends.friends.activity.PersonalActivity"
+            android:label="@string/title_activity_personal" >
+        </activity>
+        <activity
+            android:name="com.example.friends.friends.activity.ManageLabbleActivity"
+            android:label="@string/title_activity_manage_labble" >
+        </activity>
     </application>
 
 </manifest>
