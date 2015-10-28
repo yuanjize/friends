@@ -6,7 +6,7 @@ package com.example.friends.friends.dao;
 public class Flags {
     public static final int MANAGELABLE = 124;
     public static final int LABBLELIST = 119;
-    public static final int ADDEDLABBLELIST = 1138;
+    public static final int ADDEDLABBLELIST = 18;
 
 
 }

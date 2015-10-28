@@ -12,16 +12,21 @@
         android:layout_height="55dp"
         app:tittle="添加标签" />
 
-
     <GridView
         android:id="@+id/labble_name"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:layout_weight="4"
-        android:horizontalSpacing="20dp"
+        android:horizontalSpacing="17dp"
         android:numColumns="4"
         android:verticalSpacing="8dp" />
+
+    <TextView
+        android:id="@+id/add_my_labble"
+        android:layout_width="77dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/add_tag" />
 
     <ImageView
         android:layout_width="match_parent"
@@ -45,7 +50,7 @@
         android:layout_height="0dp"
         android:layout_marginTop="10dp"
         android:layout_weight="4"
-        android:horizontalSpacing="20dp"
+        android:horizontalSpacing="17dp"
         android:numColumns="4"
         android:verticalSpacing="8dp" />
 

@@ -67,14 +67,7 @@ public class SubLableFragment extends Fragment {
         manageLabbile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               /* TextView text = null;
-                ArrayList<String> list = new ArrayList<String>();
-                Intent intent = new Intent(getActivity(), ManageLabbleActivity.class);
-                int childCount = gridView.getChildCount();
-                for (int i = 0; i < childCount; i++) {
-                    text = (TextView) gridView.getChildAt(i);
-                    list.add(text.getText().toString());
-                }*/
+
                 Intent intent = new Intent(getActivity(), ManageLabbleActivity.class);
                 intent.putExtra("labbles", labbles);
                 startActivityForResult(intent, Flags.MANAGELABLE);
